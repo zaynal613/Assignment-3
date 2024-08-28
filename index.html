@@ -42,10 +42,11 @@
       </script>
 
 </head>
-<body class="manrope-font w-10/12 mx-auto">
+<body class="manrope-font ">
     <!-- header section start -->
-  <header>
-    <nav>
+  <header class="" >
+    <!-- navbar  -->
+    <nav class=" w-10/12 mx-auto">
         <div class="navbar">
             <div class="navbar-start items-center mx-auto">
               <i class="fa-solid fa-arrow-right bg-secondary -rotate-45 rounded-full p-3"></i>
@@ -61,15 +62,14 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end items-center mx-4">
-              <div class="flex">
+            <div class="navbar-end lg:flex">
+              <div class="lg:flex hidden ">
                 <i class="fa-solid fa-magnifying-glass rounded-full border storoke-1 p-3"></i>
                 <i class="fa-solid fa-cart-shopping bg-white mx-4 rounded-full border storoke-1 p-3"></i>
-              <div>
+               <div>
                 <a class="rounded-full py-3 px-5 bg-secondary">Book Consult <span><i class="fa-solid fa-arrow-right bg-[black] text-white -rotate-45 rounded-full p-3"></i></span></a>
-                
-              </div>
-              </div>
+                </div>
+            </div>
               
               <div class="dropdown">
                 <div tabindex="0" role="button" class="lg:hidden">
@@ -77,7 +77,7 @@
                 </div>
                 <ul
                   tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-0 shadow">
                     <li><a>Home</a></li>
                     <li><a>Service</a></li>
                      <li><a>Protfolio</a></li>
@@ -88,6 +88,39 @@
             </div>
           </div>
     </nav>
+    <!-- Banner  -->
+     <section class="w-10/12 mx-auto">
+      <!-- images -->
+      <div>
+        <img class="mx-auto" src="./assets/banner.png" alt="">
+      </div>
+      <!-- content  -->
+      <div class="text-center my-4">
+        <h1 class="text-3xl lg:text-6xl font-extrabold">A barn house of this design has a striking appearance</h1>
+        <p class="text-sm lg:text-lg font-semibold my-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <div>
+          <a class="rounded-full py-3 px-5 bg-secondary">View Details<span><i class="fa-solid fa-arrow-right bg-[black] text-white -rotate-45 rounded-full p-3"></i></span></a>
+          </div>
+      </div>
+     </section>
+     <section class="bg-[#E9E9E9]">
+      <!-- About us sectoin  -->
+      <div class=" flex w-10/12 mx-auto">
+        <!-- content section  -->
+        <div class="my-10 w-1/2">
+          <div><img class="hidden lg:flex" src="./assets/Vector.png" alt=""></div>
+          <a class="rounded-full py-2 px-2 bg-white"><span><i class="fa-solid fa-arrow-right  rounded-full p-3"></i></span>About Us</a>
+          <h1 class="text-3xl lg:text-5xl font-extrabold">We design thoughtful, liveable spaces</h1>
+          <p class="text-sm lg:text-base font-semibold">The barn house captivates with its blend of rustic charm and 
+            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <!-- image section  -->
+         <div class="w-1/2">
+          <img src="./assets/Rectangle.png" alt="">
+         </div>
+      </div>
+
+     </section>
   </header>
 </body>
 </html>
